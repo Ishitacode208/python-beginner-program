@@ -1,0 +1,7 @@
+text = input("Enter a word: ")
+
+if text == text[::-1]:
+    print("Palindrome")
+else:
+    print("Not a palindrome")
+# a palindrome ia a word, number, or text that reads the same forward and backward
